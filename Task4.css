@@ -1,0 +1,999 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #F6F6F4;
+
+}
+/* nav part */
+#top{
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+#nav1{
+    height: 35px;
+    width: 100%;
+    background-color:  #E2DCD2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: gilroy;
+    
+}
+#nav1 h4{
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+#nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 14px 20px;
+    background-color: #F6F6F4;  
+}
+.navtop{
+    display: flex;
+    align-items: center;
+    gap:40px;
+    
+}
+.navtop a{
+    text-decoration: none;
+    color : #040000e0;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size:13px;
+    font-weight: 500;
+    padding-bottom: 3px; 
+      /* by this padding and border bottom the element will not rise up what is rising up when the hover was there  */
+}
+   
+#nav2 a:hover{
+    border-bottom: 1px solid black; 
+}
+
+#navcenter img{
+    height: 30px;
+    margin-left: 50px;
+}
+
+/* main part */
+#main{
+    width: 100%;
+    height: 100%;
+    padding-top: 1px;
+    background-color: #F6F6F4;
+}
+
+#pages{
+    margin :0px 20px;
+    height: 150%;
+    margin-top: 90px;
+}
+/* page1 */
+#page1{
+    width: 100%;
+    height:55%;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/aleph-beauty-519-mcu-1400_a6cc296c-dfb9-49e6-b60d-9751d4ddb246_2560x.jpg?v=1668063737');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap:20px;
+    padding-bottom: 35px;
+    /* color: #d8d6d2; */
+    color: white;
+    /* padding-top: 20%; */
+}
+#page1 h1{   
+    font-weight: 100;
+    font-size: 70px;
+    color: white;   
+    font-family: Cardinal Fruit;
+}
+#page1 h4{
+   font-family: gilroy;
+   font-weight: 500 ;
+   color: rgba(255, 255, 255, 0.93); 
+}
+#page1 button{
+    padding: 18px 30px;
+    border: none;
+    color : #040000d7;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size:13px;
+    font-weight: 500;
+    width: fit-content;
+    background: #e4dfdf; 
+}
+#page1 button:hover{
+    background-color: black;
+    color:white;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 2s;
+}
+#page2{
+    width: 100%;
+    height: 70%;
+    margin-top: 15px;
+     display: flex;
+}
+#imgpart{
+    width: 51%;
+    height: 100%;    
+}
+#imgpart img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+#page2part2{
+    padding: 8% 8%;
+    height: 100%;
+    width: 49%;
+    background-color: #EFECE6;
+}
+#page2part2 h1{
+    font-weight: 100;
+    font-size: 50px;
+    font-family: Cardinal Fruit;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+#page2part2 #head{
+   margin-left: 50px;
+   margin-bottom: 30px;
+}
+#page2part2 h2{
+    font-weight: 100;
+    font-family: Cardinal Fruit;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: right;
+    margin-bottom: 30px;
+    
+}
+#page2part2 p{
+    font-family: gilroy;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 27px;
+    line-height:25px;
+    
+}
+#vegan{
+    margin-top: 2px;
+    display: flex;
+    gap:25px;
+    font-family: gilroy;
+}
+#vegan h4{
+    font-weight: 300;
+    font-size: 15px;
+}
+#b2{
+    padding: 17px 28px;
+    border: none;
+    color : #040000d7;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size:13px;
+    font-weight: 500;
+    width: fit-content;
+    background: #ded9d9;
+    margin-top: 50px; 
+}
+#b2:hover{
+    background-color: black;
+    color:white;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 2s;
+}
+
+/* page 3 */
+
+#page3{
+    margin-top:  15px;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 100px 0px;
+    display: flex;
+}
+#page3part1{
+    width: 100%;
+    height: 75%;
+
+}
+#left{
+  width: 100%;
+  height: 80%;
+  
+}
+#img1{
+    height: 240px;
+    width: 210px;
+    background-image: url(https://alephbeauty.com/cdn/shop/files/3.0_3435fef5-e084-4c79-8989-21cba4476cef.jpg?v=1666336086);
+    background-position: center;
+    background-size: cover;
+    /* transform: translateX(190%); */
+    margin-left: 40%;
+}
+#imgPara{
+    display: flex;
+    padding: 50px 0px;
+    text-align: center;
+}
+#imgPara img{
+  height: 220px;
+  margin-left: 20px;
+}
+#para{
+    padding-left:  90px;
+    padding-right: 50px;
+}
+#para h1{
+    font-size: 65px;
+    font-weight: 400;
+    font-family: Cardinal Fruit;
+}
+#para p{
+    padding:25px 90px;
+    font-family: gilroy;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:25px;
+}
+#imgPara button{
+    padding: 17px 28px;
+    border: none;
+    color : #040000d7;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size:13px;
+    font-weight: 500;
+    width: fit-content;
+    background: #ded9d9;
+    margin-top: 15px;
+    
+}
+#imgPara button:hover{
+    background-color: black;
+    color:white;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 2s;
+}
+#img2{
+    height: 20%;
+    width: 100%;
+    display: flex;
+
+    
+}
+#img21{
+    height: 220px;
+    width: 220px;
+    background-image: url('//alephbeauty.com/cdn/shop/files/2.0_d1d761a5-7aee-4f78-bec2-8858d37e253c.jpg?v=1666338225');
+    background-position: center;
+    background-size: cover;  
+    margin-left: 30%;
+    
+}
+#img22{
+    height: 169px;
+    width: 120px;
+    object-fit: cover;
+    margin-left: 230px;
+}
+#right{
+    width: 25%;
+    height:80%;
+    display: flex;
+    align-items: center;
+}
+#right img{
+  width: 250px;
+}
+
+/* page4 */
+#page4{
+    margin-top: 50px;
+    width: 100%;
+    height: 55%;
+   background-color: rgb(224, 223, 218);
+}
+#page4 p{
+    padding: 0px 25%;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Cardinal Fruit;
+    padding-top: 10%;
+}
+#logos{
+    display: flex;
+    padding-top: 50px;
+    gap:35px;  
+    justify-content: center;
+    align-items: center;
+}
+.i img{
+    height: 18px;
+}
+.i{
+    filter: invert(100%) brightness(60%);
+    /* this will invert color of black color to white  */
+}
+.i:hover{
+    filter: none;
+    transition: all ease 1s;
+}
+#newyork img{
+    height: 14px;
+     /* use filter to change the color of the imagex
+     filter: grayscale(100%) brightness(50%); */
+     filter: invert(35%) brightness(140%);
+}
+#newyork:hover img{
+    filter: none;
+    transition: all ease 1s;
+}
+
+/* page5 */
+#page5{
+   height: 80%;
+   width: 100%;
+   padding-top: 60px;
+}
+#page5nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+#navleft{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+#navleft h1{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: Cardinal Fruit;
+}
+#navleft a{
+    font-family: gilroy;
+    padding-bottom: 1px;
+    text-decoration: none;
+}
+#cheek{
+    font-weight: 400;
+    color: black;
+    border-bottom: 1px solid black;
+}
+.face{
+    font-weight: 400;
+    color: #888;
+}
+.face:hover{
+    color: black;
+}
+#page5 button{
+    padding: 17px 28px;
+    border: none;
+    color : #040000d7;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size:13px;
+    font-weight: 500;
+    width: fit-content;
+    background: #ded9d9;
+}
+#page5 button:hover{
+    background-color: black;
+    color:white;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 2s;
+}
+
+#images{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.part{
+    height: 100%;
+    width: 33.1%;
+    background-color: #EFECE6;
+}
+#part1{
+   background-image: url('//alephbeauty.com/cdn/shop/files/aleph-cheek-lip-tint-gloria-6g-Jar_3200x3724px.png?v=1708135217&amp;width=1400'); 
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   overflow: hidden;
+}
+.child{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.child h3{
+   text-transform: uppercase;
+   font-family: gilroy;
+   font-weight: 300;
+   font-size: 15px;
+   letter-spacing: 1px;
+   
+}
+#part1:hover{
+  background-image: url('https://alephbeauty.com/cdn/shop/files/Aleph_2024_Cheek-Lip-Tint-Gloria-campaign_637dfdd3-2ba1-4d74-a055-d9016e66ccc1.jpg?v=1708369173&width=1600');  
+  background-position: center;
+  background-size: cover;
+  transition: all ease 1s;
+}
+#part1:hover .child{
+    top: 90%;
+    transition: all ease 1s;
+}
+#part1:hover .hello{
+    display: none;
+}
+ #part2{
+    background-image: url('//alephbeauty.com/cdn/shop/files/aleph-cheek-lip-tint-6gJar_Emanate_update_3200x3724px.png?v=1691119781&amp;width=1400'); 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   overflow: hidden;
+    
+ }
+ #part2:hover{
+    background-image: url('https://alephbeauty.com/cdn/shop/files/aleph-cheek-lip-tint-emanate-model_0831.jpg?v=1691119781&width=1600');  
+    background-position: center;
+    background-size: cover;
+   transition: all ease 1s;
+
+  }
+#part2:hover .child{
+    top: 90%;
+    transition: all ease 1s;
+}
+#part2:hover .hello{
+    display: none;
+    /* nothing will we displayed */
+}
+#part3{
+    background-image: url('//alephbeauty.com/cdn/shop/products/aleph-cheek-lip-tint-6g-Jar_Grounded_3200x3724px.png?v=1663658337&amp;width=1400'); 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+ }
+ #part3:hover{
+    background-image: url('https://alephbeauty.com/cdn/shop/files/Cheek_LipTintGrounded_1.jpg?v=1662675508&width=1600');  
+    background-position: center;
+    background-size: cover;
+    transition: all ease 1s;
+    
+  } 
+  #part3:hover .child{
+    top: 90%;
+    transition: all ease 1s;
+}
+#part3:hover .hello{
+    display: none;
+}
+/* tages */
+.hello{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+.new{
+    font-family: gilroy;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-transform: capitalize;
+    padding: 30px 30px; 
+}
+.tag{
+    padding: 0px 30px;
+}
+.tag h3{
+    font-family: gilroy;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.price h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+} 
+/* page6 */
+
+#page6{
+    width: 100%;
+    height: 70%;
+    
+}
+#page6 h1{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: Cardinal Fruit;
+    text-align: center;
+}
+/* ------------------------------------ */
+#moving{
+    width: 100%;
+    height:60%;  
+    display: flex;
+    margin-top: 50px;
+    color: rgba(255, 247, 247, 0.879);
+}
+
+.move{
+    height: 100%;
+    width: 33%;
+    margin-left: 3px;
+    display: inline-block;
+    display: flex;
+    position: relative;
+}
+.review{
+    width: 50%;
+    height: 100%;
+    padding-left: 25px;
+    padding-right: 50px;
+    padding-top: 40px;   
+}
+.inverted{
+    font-size: 30px;
+
+}
+.review p{
+    font-family: gilroy;
+    /* this will start the first line of para with 30px gap */
+    text-indent: 30px;
+    line-height: 22px;
+    padding-bottom: 20px; 
+}
+
+.user{
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.user{
+    font-family: gilroy;
+}
+.i1{
+    height: 70%;
+    position: absolute;
+    left: 50%;
+    top: 63%;
+    transform: translate(-50%,-50%);
+}
+#bg1{
+    width: 50%;
+    height: 100%;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/Jessica-G-review_large.jpg?v=1660705288');
+    background-position: top;
+    background-size: cover;
+}
+#bg2{
+    width: 50%;
+    height: 100%;
+    background-image: url('//alephbeauty.com/cdn/shop/files/20220717_100325_large.jpg?v=1663726469');
+    background-position: top;
+    background-size: cover;
+}
+#bg3{
+    width: 50%;
+    height: 100%;
+    background-image: url('//alephbeauty.com/cdn/shop/files/michelle-review-1_large.jpg?v=1660705639');
+    background-position: top;
+    background-size: cover;
+}
+#review1{
+    background-color: #C79067;  
+}
+#review2{
+    background-color: #F05C4D;
+}
+#review3{
+    background: #000;
+}
+
+
+/* page7 */
+#page7{
+    height: 75%;
+    width: 100%; 
+}
+#block{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    gap: 2px;
+}
+#page7_1{
+    width: 26%;
+    height: 100%;
+    
+}
+#page7_1 h1{
+    font-size: 50px;
+    font-weight: 100;
+    font-family: Cardinal Fruit;
+}
+
+.p7{
+    height: 100%;
+    width: 25%;
+    
+}
+.img7{
+    width: 100%;
+    height: 60%;
+    background: #000;
+}
+.img7 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.p7 h3{
+    font-family: gilroy;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 18px 0px;
+}
+.p7 p{
+    font-family: gilroy;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding-bottom: 20px;
+    
+}
+.page7b{   
+    padding: 17px 28px;
+    border: none;
+    color : #040000d7;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size:13px;
+    font-weight: 500;
+    width: fit-content;
+    background: #ded9d9;
+    /* due to this the button will be invisible */
+    opacity: 0;
+    transition: all ease 0.3s;
+}
+#page7_2:hover #page71button{
+    opacity: 1;
+} 
+#page7_3:hover #page72button{
+    opacity: 1;
+} 
+#page7_4:hover #page73button{
+    opacity: 1;
+} 
+.page7b:hover{
+    background-color: black;
+    color:white;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 2s;
+}
+
+/* page8 */
+
+#page8{
+  width: 100%;
+  height: 72%;
+  background-image: url('https://alephbeauty.com/cdn/shop/files/ex-sus.jpg?v=1661851834');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 4%;
+  padding-top: 4%;
+  padding-right: 55%;
+}
+
+#page8 h3{
+    font-family: gilroy;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 15px 0px;
+    color: #888;
+}
+#page8 p{
+    font-size: 35px;
+    font-weight: 500;
+    font-family: Cardinal Fruit;
+}
+#page8 button{
+    margin-top: 30px;
+    padding: 17px 28px;
+    border: none;
+    color : #040000d7;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size:13px;
+    font-weight: 500;
+    width: fit-content;
+    background: white;
+}
+#page8 button:hover{
+    background-color: black;
+    color:white;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 2s;
+}
+/* ----------------------page9--------------------- */
+ #page9{
+    width: 100%;
+    height: 100%;
+    padding: 8% 0px;
+}
+  
+#page9 h1{
+    font-size: 70px;
+    font-weight: 500;
+    font-family: Cardinal Fruit;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#page9block{
+    width: 100%;
+    height: 85%;
+    display: flex;
+}
+#block9_1{
+    width: 34%;
+    height: 100%;
+    
+}
+#block9_2{
+    width: 36%;
+    height: 100%;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/amberly-star-182.jpg?v=1660708208');
+    background-size: cover;
+    background-position: center;
+}
+
+#block9_3{
+    width: 30%;
+    height: 100%;
+}
+#bImg1{
+    margin-left:80%;
+    margin-top: 15%;
+    display: block;
+}
+#bImg2{
+     margin-left: -35%;
+     margin-top: -15%;
+}
+#block9_2 img{
+    width: 55%;
+    object-fit: cover;
+}
+.tint{
+    font-family: gilroy;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+.tint2{
+    font-family: gilroy;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#t1{
+    margin-top: 135%;
+}
+#block9_1{
+    text-align: right;
+    padding-right: 25px;
+}
+#block9_3{
+    margin-top: 25%;
+    padding-left: 50px;
+}
+#block9_3 button{
+    padding: 17px 28px;
+    border: none;
+    color : #040000d7;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size:13px;
+    font-weight: 500;
+    width: fit-content;
+    background: #E2DCD2;
+    margin-top:20px ;
+}
+#block9_3 button:hover{
+    background-color: black;
+    color:white;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 2s;
+}
+/* page10 */
+
+#page10{
+    width: 100%;
+    height: 45%;
+}
+#page10 h1{
+    font-size: 60px;
+    font-weight: 500;
+    font-family: Cardinal Fruit;
+    text-align: center;
+    margin-bottom: 20px;   
+}
+#page10block{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+#page10block img{
+    height: 95%;
+    width: 20%;
+    object-fit: cover;  
+    animation-name: anime2; 
+}
+
+#page11{
+    width: 100%;
+    height: 80%;
+    margin-top: 10px;
+}
+#page11block{
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+#block1{
+    height: 100%;
+    width: 50%;
+    background-color: #EFECE6;
+    padding: 100px 50px;
+}
+#block1 h3{
+    font-family: gilroy;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;   
+    margin-bottom: 10px; 
+}
+#block1 h1{
+    font-size: 35px;
+    font-weight: 500;
+    font-family: Cardinal Fruit;
+    
+}
+#block1 img{
+    height: 25%;
+}
+#block1 input{
+    border: none;
+    outline: none;
+    background-color:transparent ;
+    width: 70%;
+    height: 40px;
+
+}
+#inputBox{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(190, 190, 190, 0.853);
+}
+#inputBox a{
+    font-family: gilroy;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;   
+    text-decoration: none;
+    color: #000;   
+}
+#inputBox a:hover{
+    color:burlywood
+}
+#inputBox ::placeholder{
+    font-size: 15px;
+    color: #000;
+}
+#block2{
+    height: 100%;
+    width: 50%;
+    background-color: #E4E1DC;
+    display: flex;
+    padding: 100px 50px;
+    gap: 50px;  
+}
+#block2 ul{
+    list-style-type: none;
+}
+#block2 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.847);
+    font-family: gilroy;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+#block2 a:hover{
+    border-bottom: 1px solid black;
+}
+#block2 li{
+    padding-bottom: 20px;
+}
+#footer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#footer1{
+    display: flex;
+    align-items: center;
+}
+#footer2{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+#footer a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.847);
+    font-size: 12px;
+    font-family: gilroy;
+    font-weight: 500;
+    padding-bottom: 3px;
+    letter-spacing: 2px;
+}
